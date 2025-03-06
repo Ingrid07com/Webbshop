@@ -11,7 +11,7 @@ body{
    
     margin-left: 5%;
     margin-right: 1%;
-    margin-top: 10%;
+    margin-top: 2%;
     background-image: url("./img/sub-2296460_1280 (3).jpg");
 }
 
@@ -151,8 +151,6 @@ body{
     height: 325px;
     width: 150px;
     background-color: #313c90;
-    grid-column: 4 / 5;
-    grid-row: 1 / 2;
     text-align: center;
     
 }
@@ -166,17 +164,23 @@ body{
 
 
 .Cyklop img{
-
     height: 100px;
     width: 110px;
 }
 
+.Varukorg{
+    background-color: rgb(142, 186, 239);
+}
 
 
+.Kontakt{
+    background-color: rgb(142, 186, 239);
+}
 
 
-
-
+.VårHistoria{
+    background-color: rgb(142, 186, 239);
+}
 
 
 
