@@ -4,9 +4,7 @@ body{
     grid-template-areas:
     "titel titel titel rectangel1"
     "Cyclope Bottles DivingFine rectangel1"
-    "Regulator DivingComputer Tube rectangel1"
-    
-    ;
+    "Regulator DivingComputer Tube rectangel1";
 
    
     margin-left: 5%;
@@ -41,6 +39,7 @@ body{
     padding: 10px;
     background-color: rgb(93, 145, 235);
     text-align: center;
+    
 }
 
 .Bottles{
@@ -163,7 +162,7 @@ body{
 }
 
 
-.Cyklop img{
+.produkt img{
     height: 100px;
     width: 110px;
 }
@@ -188,7 +187,10 @@ body{
 
 
 
-
+.VarukorgText{
+    color: rgb(51, 55, 163);
+    font-weight: bold;
+}
 
 
 
