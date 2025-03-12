@@ -193,7 +193,10 @@ body{
 }
 
 
-
+.RemoveKnappar{
+    background-color: rgb(222, 142, 142);
+    color: rgb(8, 8, 8);
+}
 
 
 

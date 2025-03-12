@@ -17,7 +17,7 @@ function updateCart() {
         total += item.price;
         cartList.innerHTML += `
         <li class="VarukorgText" >${item.name} - ${item.price} kr 
-        <button onclick="removeFromCart(${index})">Remove</button>
+        <button class="RemoveKnappar" onclick="removeFromCart(${index})">Remove</button>
         </li>`;
     });
 
