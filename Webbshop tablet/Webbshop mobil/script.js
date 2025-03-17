@@ -13,18 +13,6 @@ function updateCart() {
   cartList.innerHTML = "";
   let total = 0;
 
-
-  
-// Funktion för att spara varukorgen i localStorage
-function saveCart() {
-  localStorage.setItem("cart", JSON.stringify(cart));
-}
-
-
-
-
-
-
   cart.forEach((item, index) => {
     total += item.price;
     cartList.innerHTML += `
@@ -62,6 +50,3 @@ document.addEventListener("DOMContentLoaded", () => {
     });
   });
 });
-
-
-
