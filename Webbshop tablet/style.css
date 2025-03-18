@@ -2,10 +2,10 @@ body {
     background-color: rgb(123, 216, 245);
     display: grid;
     grid-template-areas:
-      "titel titel titel rectangel1"
-      "Cyclope Bottles rectangel1" 
-      "DivingFine Regulator rectangel1"
-      "DivingComputer Tube rectangel1";
+      "titel titel rectangel1"
+    "Cyclope Bottles rectangel1"
+    "DivingFine Regulator rectangel1"
+    "DivingComputer Tube rectangel1";
   
     margin-left: 5%;
     margin-right: 1%;
@@ -13,6 +13,8 @@ body {
     background-image: url("./img/sub-2296460_1280 (3).jpg");
   }
   
+ 
+
   .titel {
     grid-area: titel;
     font-size: 35px;
@@ -25,7 +27,7 @@ body {
     font-size: 20px;
     display: flex;
     flex-direction: column;
-    color: rgb(4, 8, 137);
+    color: rgb(32, 36, 173);
     font-weight: bold;
   }
   
@@ -42,7 +44,7 @@ body {
     font-size: 20px;
     display: flex;
     flex-direction: column;
-    color: rgb(4, 8, 137);
+    color: rgb(32, 36, 173);
     font-weight: bold;
   }
   
@@ -59,7 +61,7 @@ body {
     font-size: 20px;
     display: flex;
     flex-direction: column;
-    color: rgb(4, 8, 137);
+    color: rgb(32, 36, 173);
     font-weight: bold;
   }
   
@@ -76,7 +78,7 @@ body {
     font-size: 20px;
     display: flex;
     flex-direction: column;
-    color: rgb(4, 8, 137);
+    color: rgb(32, 36, 173);
     font-weight: bold;
   }
   
@@ -93,7 +95,7 @@ body {
     font-size: 20px;
     display: flex;
     flex-direction: column;
-    color: rgb(4, 8, 137);
+    color: rgb(32, 36, 173);
     font-weight: bold;
   }
   
@@ -110,7 +112,7 @@ body {
     font-size: 20px;
     display: flex;
     flex-direction: column;
-    color: rgb(4, 8, 137);
+    color: rgb(32, 36, 173);
     font-weight: bold;
   }
   
@@ -123,8 +125,7 @@ body {
   }
   
   .rectangle1 {
-    height: 300px;
-    width: 150px;
+    grid-area: rectangel1;
     background-color: #313c90;
     text-align: center;
   }
@@ -156,7 +157,7 @@ body {
   }
   
   .VarukorgText {
-    color: rgb(51, 55, 163);
+    color: rgb(6, 6, 21);
     font-weight: bold;
   }
   
