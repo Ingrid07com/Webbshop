@@ -1,6 +1,11 @@
 // Shopping cart array
 let cart = [];
 
+if (JSON.parse(localStorage.getItem("cart"))) {
+  cart = JSON.parse(localStorage.getItem("cart"));
+  updateCart();
+}
+
 // Funktion för att lägga till  produkter till varukorgen
 function addToCart(name, price) {
   cart.push({ name, price });
@@ -12,6 +17,9 @@ function updateCart() {
   let cartList = document.querySelector("ul");
   cartList.innerHTML = "";
   let total = 0;
+
+  // Funktion för att spara varukorgen i localStorage
+  localStorage.setItem("cart", JSON.stringify(cart));
 
   cart.forEach((item, index) => {
     total += item.price;
