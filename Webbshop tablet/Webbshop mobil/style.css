@@ -16,155 +16,174 @@ body {
     background-image: url("./img/sub-2296460_1280 (2).jpg");
   }
   
+ 
+/* Bestäm egenskap hos titeln */
+.titel {
+  grid-area: titel;
+  font-size: 35px;
+  display: flex;
+  color: rgb(23, 70, 158);  }
 
-  .titel {
-    grid-area: titel;
-    font-size: 35px;
-    display: flex;
-    color: rgb(23, 70, 158);
-  }
-  
-  .Cyclope {
-    grid-area: Cyclope;
-    font-size: 20px;
-    display: flex;
-    flex-direction: column;
-    color: rgb(65, 71, 230);
-    font-weight: bold;
-  }
-  
-  .Cyclope button {
-    height: 30px;
-    width: 100px;
-    padding: 10px;
-    background-color: rgb(93, 145, 235);
-    text-align: center;
-  }
-  
-  .Bottles {
-    grid-area: Bottles;
-    font-size: 20px;
-    display: flex;
-    flex-direction: column;
-    color: rgb(65, 71, 230);
-    font-weight: bold;
-  }
-  
-  .Bottles button {
-    height: 30px;
-    width: 100px;
-    padding: 10px;
-    background-color: rgb(93, 145, 235);
-    text-align: center;
-  }
-  
-  .DivingFine {
-    grid-area: DivingFine;
-    font-size: 20px;
-    display: flex;
-    flex-direction: column;
-    color: rgb(65, 71, 230);
-    font-weight: bold;
-  }
-  
-  .DivingFine button {
-    height: 30px;
-    width: 100px;
-    padding: 10px;
-    background-color: rgb(93, 145, 235);
-    text-align: center;
-  }
-  
-  .Regulator {
-    grid-area: Regulator;
-    font-size: 20px;
-    display: flex;
-    flex-direction: column;
-    color: rgb(65, 71, 230);
-    font-weight: bold;
-  }
-  
-  .Regulator button {
-    padding: 10px;
-    height: 30px;
-    width: 100px;
-    background-color: rgb(93, 145, 235);
-    text-align: center;
-  }
-  
-  .Divingcomputer {
-    grid-area: DivingComputer;
-    font-size: 20px;
-    display: flex;
-    flex-direction: column;
-    color: rgb(65, 71, 230);
-    font-weight: bold;
-  }
-  
-  .Divingcomputer button {
-    height: 30px;
-    width: 100px;
-    padding: 10px;
-    background-color: rgb(93, 145, 235);
-    text-align: center;
-  }
-  
-  .Tube {
-    grid-area: Tube;
-    font-size: 20px;
-    display: flex;
-    flex-direction: column;
-    color: rgb(65, 71, 230);
-    font-weight: bold;
-  }
-  
-  .Tube button {
-    height: 30px;
-    width: 100px;
-    padding: 10px;
-    background-color: rgb(93, 145, 235);
-    text-align: center;
-  }
-  
-  .rectangle1 {
-    grid-area: rectangel1;
-    background-color: #313c90;
-    text-align: center;
-  }
-  
-  .logga img {
-    padding: 15px;
-    height: 100px;
-    width: 110px;
-  }
-  
-  .produkt img {
-    height: 100px;
-    width: 110px;
-  }
-  
-  .Varukorg {
-    background-color: rgb(142, 186, 239);
-    font-size: 15px;
-  }
-  
-  .Kontakt {
-    background-color: rgb(142, 186, 239);
-    font-size: 15px;
-  }
-  
-  .VårHistoria {
-    background-color: rgb(142, 186, 239);
-    font-size: 15px;
-  }
-  
-  .VarukorgText {
-    color: rgb(6, 6, 21);
-    font-weight: bold;
-  }
-  
-  .RemoveKnappar {
-    background-color: rgb(222, 142, 142);
-    color: rgb(8, 8, 8);
-  }
-  
+/* Bestäm egenskaper hos produkten */
+.Cyclope {
+  grid-area: Cyclope;
+  font-size: 20px;
+  display: flex;
+  flex-direction: column;
+  color: rgb(65, 71, 230);
+  font-weight: bold;
+}
+
+/* Bestäm egenskaper hos add to cart */
+.Cyclope button {
+  height: 30px;
+  width: 100px;
+  padding: 10px;
+  background-color: rgb(93, 145, 235);
+  text-align: center;
+}
+
+/* Bestäm egenskaper hos produkten */
+.Bottles {
+  grid-area: Bottles;
+  font-size: 20px;
+  display: flex;
+  flex-direction: column;
+  color: rgb(65, 71, 230);
+  font-weight: bold;
+}
+
+/* Bestäm egenskaper hos add to cart */
+.Bottles button {
+  height: 30px;
+  width: 100px;
+  padding: 10px;
+  background-color: rgb(93, 145, 235);
+  text-align: center;
+}
+
+/* Bestäm egenskaper hos produkten */
+.DivingFine {
+  grid-area: DivingFine;
+  font-size: 20px;
+  display: flex;
+  flex-direction: column;
+  color: rgb(65, 71, 230);
+  font-weight: bold;
+}
+
+/* Bestäm egenskaper hos add to cart */
+.DivingFine button {
+  height: 30px;
+  width: 100px;
+  padding: 10px;
+  background-color: rgb(93, 145, 235);
+  text-align: center;
+}
+
+/* Bestäm egenskaper hos produkten */
+.Regulator {
+  grid-area: Regulator;
+  font-size: 20px;
+  display: flex;
+  flex-direction: column;
+  color: rgb(65, 71, 230);
+  font-weight: bold;
+}
+
+/* Bestäm egenskaper hos add to cart */
+.Regulator button {
+  padding: 10px;
+  height: 30px;
+  width: 100px;
+  background-color: rgb(93, 145, 235);
+  text-align: center;
+}
+
+/* Bestäm egenskaper hos produkten */
+.Divingcomputer {
+  grid-area: DivingComputer;
+  font-size: 20px;
+  display: flex;
+  flex-direction: column;
+  color: rgb(65, 71, 230);
+  font-weight: bold;
+}
+
+/* Bestäm egenskaper hos add to cart */
+.Divingcomputer button {
+  height: 30px;
+  width: 100px;
+  padding: 10px;
+  background-color: rgb(93, 145, 235);
+  text-align: center;
+}
+
+/* Bestäm egenskaper hos produkten */
+.Tube {
+  grid-area: Tube;
+  font-size: 20px;
+  display: flex;
+  flex-direction: column;
+  color: rgb(65, 71, 230);
+  font-weight: bold;
+}
+
+/* Bestäm egenskaper hos add to cart */
+.Tube button {
+  height: 30px;
+  width: 100px;
+  padding: 10px;
+  background-color: rgb(93, 145, 235);
+  text-align: center;
+}
+
+/* Bestäm egenskaper hos rektangel 1 */
+.rectangle1 {
+  grid-area: rectangel1;
+  background-color: #313c90;
+  text-align: center;
+}
+
+/* Bestäm egenskaper hos logga bilderna */
+.logga img {
+  padding: 15px;
+  height: 100px;
+  width: 110px;
+}
+
+/* Bestäm egenskaper hos produkt bilderna */
+.produkt img {
+  height: 100px;
+  width: 110px;
+}
+
+/* Bestäm egenskaper hos varukorg knapparna */
+.Varukorg {
+  background-color: rgb(142, 186, 239);
+  font-size: 15px;
+}
+
+/* Bestäm egenskaper hos kontakt knappen */
+.Kontakt {
+  background-color: rgb(142, 186, 239);
+  font-size: 15px;
+}
+
+/* Bestäm egenskaper hos vår historia knapp */
+.VårHistoria {
+  background-color: rgb(142, 186, 239);
+  font-size: 15px;
+}
+
+/* Bestäm egenskaper hos varukorg texten */
+.VarukorgText {
+  color: rgb(6, 6, 21);
+  font-weight: bold;
+}
+
+/* Bestäm egenskaper hos remove knapparna */
+.RemoveKnappar {
+  background-color: rgb(222, 142, 142);
+  color: rgb(8, 8, 8);
+}
