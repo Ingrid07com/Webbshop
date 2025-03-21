@@ -1,188 +1,207 @@
 body {
-    background-color: rgb(123, 216, 245);
-    display: grid;
-    /* Bästem hur allt ska portioneras på hemsidan */
-    grid-template-areas:
-      "titel titel rectangel1"
+  background-color: rgb(123, 216, 245);
+  display: grid;
+  /* Bästem hur allt ska portioneras på hemsidan */
+  grid-template-areas:
+    "titel titel rectangel1"
     "Cyclope Bottles rectangel1"
     "DivingFine Regulator rectangel1"
     "DivingComputer Tube rectangel1";
-  
+
+  margin-left: 5%;
+  margin-right: 1%;
+  margin-top: 2%;
+  background-image: url("./img/sub-2296460_1280 (3).jpg");
+}
+
+/* Bestäm egenskap hos titeln */
+.titel {
+  grid-area: titel;
+  font-size: 35px;
+  display: flex;
+  color: rgb(23, 70, 158);
+}
+
+/* Bestäm egenskaper hos produkten */
+.Cyclope {
+  grid-area: Cyclope;
+  font-size: 20px;
+  display: flex;
+  flex-direction: column;
+  color: rgb(65, 71, 230);
+  font-weight: bold;
+}
+
+/* Bestäm egenskaper hos add to cart */
+.Cyclope button {
+  height: 30px;
+  width: 100px;
+  padding: 10px;
+  background-color: rgb(93, 145, 235);
+  text-align: center;
+}
+
+/* Bestäm egenskaper hos produkten */
+.Bottles {
+  grid-area: Bottles;
+  font-size: 20px;
+  display: flex;
+  flex-direction: column;
+  color: rgb(65, 71, 230);
+  font-weight: bold;
+}
+
+/* Bestäm egenskaper hos add to cart */
+.Bottles button {
+  height: 30px;
+  width: 100px;
+  padding: 10px;
+  background-color: rgb(93, 145, 235);
+  text-align: center;
+}
+
+/* Bestäm egenskaper hos produkten */
+.DivingFine {
+  grid-area: DivingFine;
+  font-size: 20px;
+  display: flex;
+  flex-direction: column;
+  color: rgb(65, 71, 230);
+  font-weight: bold;
+}
+
+/* Bestäm egenskaper hos add to cart */
+.DivingFine button {
+  height: 30px;
+  width: 100px;
+  padding: 10px;
+  background-color: rgb(93, 145, 235);
+  text-align: center;
+}
+
+/* Bestäm egenskaper hos produkten */
+.Regulator {
+  grid-area: Regulator;
+  font-size: 20px;
+  display: flex;
+  flex-direction: column;
+  color: rgb(65, 71, 230);
+  font-weight: bold;
+}
+
+/* Bestäm egenskaper hos add to cart */
+.Regulator button {
+  padding: 10px;
+  height: 30px;
+  width: 100px;
+  background-color: rgb(93, 145, 235);
+  text-align: center;
+}
+
+/* Bestäm egenskaper hos produkten */
+.Divingcomputer {
+  grid-area: DivingComputer;
+  font-size: 20px;
+  display: flex;
+  flex-direction: column;
+  color: rgb(65, 71, 230);
+  font-weight: bold;
+}
+
+/* Bestäm egenskaper hos add to cart */
+.Divingcomputer button {
+  height: 30px;
+  width: 100px;
+  padding: 10px;
+  background-color: rgb(93, 145, 235);
+  text-align: center;
+}
+
+/* Bestäm egenskaper hos produkten */
+.Tube {
+  grid-area: Tube;
+  font-size: 20px;
+  display: flex;
+  flex-direction: column;
+  color: rgb(65, 71, 230);
+  font-weight: bold;
+}
+
+/* Bestäm egenskaper hos add to cart */
+.Tube button {
+  height: 30px;
+  width: 100px;
+  padding: 10px;
+  background-color: rgb(93, 145, 235);
+  text-align: center;
+}
+
+/* Bestäm egenskaper hos rektangel 1 */
+.rectangle1 {
+  grid-area: rectangel1;
+  background-color: #313c90;
+  text-align: center;
+}
+
+/* Bestäm egenskaper hos logga bilderna */
+.logga img {
+  padding: 15px;
+  height: 100px;
+  width: 110px;
+}
+
+/* Bestäm egenskaper hos produkt bilderna */
+.produkt img {
+  height: 100px;
+  width: 110px;
+}
+
+/* Bestäm egenskaper hos varukorg knapparna */
+.Varukorg {
+  background-color: rgb(142, 186, 239);
+  font-size: 15px;
+}
+
+/* Bestäm egenskaper hos kontakt knappen */
+.Kontakt {
+  background-color: rgb(142, 186, 239);
+  font-size: 15px;
+}
+
+/* Bestäm egenskaper hos vår historia knapp */
+.VårHistoria {
+  background-color: rgb(142, 186, 239);
+  font-size: 15px;
+}
+
+/* Bestäm egenskaper hos varukorg texten */
+.VarukorgText {
+  color: rgb(6, 6, 21);
+  font-weight: bold;
+}
+
+/* Bestäm egenskaper hos remove knapparna */
+.RemoveKnappar {
+  background-color: rgb(222, 142, 142);
+  color: rgb(8, 8, 8);
+}
+
+@media only screen and (max-width: 1023px) {
+  body {
+    background-color: rgb(123, 216, 245);
+    display: grid;
+    grid-template-areas:
+      "titel rectangel1"
+      "Cyclope rectangel1"
+      "Bottles rectangel1"
+      "DivingFine rectangel1"
+      "Regulator rectangel1"
+      "DivingComputer rectangel1"
+      "Tube rectangel1";
+
     margin-left: 5%;
     margin-right: 1%;
     margin-top: 2%;
-    background-image: url("./img/sub-2296460_1280 (3).jpg");
+    background-image: url("./img/sub-2296460_1280 (2).jpg");
   }
-  
- 
-/* Bestäm egenskap hos titeln */
-  .titel {
-    grid-area: titel;
-    font-size: 35px;
-    display: flex;
-    color: rgb(23, 70, 158);  }
-  
-  /* Bestäm egenskaper hos produkten */
-  .Cyclope {
-    grid-area: Cyclope;
-    font-size: 20px;
-    display: flex;
-    flex-direction: column;
-    color: rgb(65, 71, 230);
-    font-weight: bold;
-  }
-
-/* Bestäm egenskaper hos add to cart */
-  .Cyclope button {
-    height: 30px;
-    width: 100px;
-    padding: 10px;
-    background-color: rgb(93, 145, 235);
-    text-align: center;
-  }
-  
-  /* Bestäm egenskaper hos produkten */
-  .Bottles {
-    grid-area: Bottles;
-    font-size: 20px;
-    display: flex;
-    flex-direction: column;
-    color: rgb(65, 71, 230);
-    font-weight: bold;
-  }
-  
-/* Bestäm egenskaper hos add to cart */
-  .Bottles button {
-    height: 30px;
-    width: 100px;
-    padding: 10px;
-    background-color: rgb(93, 145, 235);
-    text-align: center;
-  }
-  
-  /* Bestäm egenskaper hos produkten */
-  .DivingFine {
-    grid-area: DivingFine;
-    font-size: 20px;
-    display: flex;
-    flex-direction: column;
-    color: rgb(65, 71, 230);
-    font-weight: bold;
-  }
-
-  /* Bestäm egenskaper hos add to cart */
-  .DivingFine button {
-    height: 30px;
-    width: 100px;
-    padding: 10px;
-    background-color: rgb(93, 145, 235);
-    text-align: center;
-  }
-  
-  /* Bestäm egenskaper hos produkten */
-  .Regulator {
-    grid-area: Regulator;
-    font-size: 20px;
-    display: flex;
-    flex-direction: column;
-    color: rgb(65, 71, 230);
-    font-weight: bold;
-  }
-  
-/* Bestäm egenskaper hos add to cart */
-  .Regulator button {
-    padding: 10px;
-    height: 30px;
-    width: 100px;
-    background-color: rgb(93, 145, 235);
-    text-align: center;
-  }
-  
-  /* Bestäm egenskaper hos produkten */
-  .Divingcomputer {
-    grid-area: DivingComputer;
-    font-size: 20px;
-    display: flex;
-    flex-direction: column;
-    color: rgb(65, 71, 230);
-    font-weight: bold;
-  }
-  
-  /* Bestäm egenskaper hos add to cart */
-  .Divingcomputer button {
-    height: 30px;
-    width: 100px;
-    padding: 10px;
-    background-color: rgb(93, 145, 235);
-    text-align: center;
-  }
-  
-  /* Bestäm egenskaper hos produkten */
-  .Tube {
-    grid-area: Tube;
-    font-size: 20px;
-    display: flex;
-    flex-direction: column;
-    color: rgb(65, 71, 230);
-    font-weight: bold;
-  }
-  
-  /* Bestäm egenskaper hos add to cart */
-  .Tube button {
-    height: 30px;
-    width: 100px;
-    padding: 10px;
-    background-color: rgb(93, 145, 235);
-    text-align: center;
-  }
-  
-  /* Bestäm egenskaper hos rektangel 1 */
-  .rectangle1 {
-    grid-area: rectangel1;
-    background-color: #313c90;
-    text-align: center;
-  }
-  
-  /* Bestäm egenskaper hos logga bilderna */
-  .logga img {
-    padding: 15px;
-    height: 100px;
-    width: 110px;
-  }
-  
-  /* Bestäm egenskaper hos produkt bilderna */
-  .produkt img {
-    height: 100px;
-    width: 110px;
-  }
-  
-  /* Bestäm egenskaper hos varukorg knapparna */
-  .Varukorg {
-    background-color: rgb(142, 186, 239);
-    font-size: 15px;
-  }
-  
-  /* Bestäm egenskaper hos kontakt knappen */
-  .Kontakt {
-    background-color: rgb(142, 186, 239);
-    font-size: 15px;
-  }
-  
-  /* Bestäm egenskaper hos vår historia knapp */
-  .VårHistoria {
-    background-color: rgb(142, 186, 239);
-    font-size: 15px;
-  }
-  
-  /* Bestäm egenskaper hos varukorg texten */
-  .VarukorgText {
-    color: rgb(6, 6, 21);
-    font-weight: bold;
-  }
-  
-  /* Bestäm egenskaper hos remove knapparna */
-  .RemoveKnappar {
-    background-color: rgb(222, 142, 142);
-    color: rgb(8, 8, 8);
-  }
-  
+}
