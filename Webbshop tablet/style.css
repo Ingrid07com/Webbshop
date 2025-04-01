@@ -4,9 +4,9 @@ body {
   /* Bästem hur allt ska portioneras på hemsidan */
   grid-template-areas:
     "titel titel rectangel1"
-    "Cyclope Bottles rectangel1"
-    "DivingFine Regulator rectangel1"
-    "DivingComputer Tube rectangel1";
+    "Cyclope Bottles DivingFine rectangel1"
+    "Regulator DivingCoomputer Tube rectangel1"
+    ;
 
   margin-left: 5%;
   margin-right: 1%;

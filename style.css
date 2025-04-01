@@ -1,24 +1,25 @@
 body {
   background-color: rgb(123, 216, 245);
   display: grid;
+  /* Bästem hur allt ska portioneras på hemsidan */
   grid-template-areas:
-  "titel titel titel rectangel1"
-  "Cyclope Bottles DivingComputer rectangel1"
-  "DivingFine Regulator Tube  rectangel1";
+    "titel titel rectangel1"
+    "Cyclope Bottles DivingFine rectangel1"
+    "Regulator DivningComputer Tube rectangel1";
+
   margin-left: 5%;
   margin-right: 1%;
   margin-top: 2%;
-  background-image: url("./img/sub-2296460_1280 (3).jpg");
+  
 }
 
-
- 
 /* Bestäm egenskap hos titeln */
 .titel {
   grid-area: titel;
   font-size: 35px;
   display: flex;
-  color: rgb(23, 70, 158);  }
+  color: rgb(23, 70, 158);
+}
 
 /* Bestäm egenskaper hos produkten */
 .Cyclope {
@@ -183,3 +184,24 @@ body {
   background-color: rgb(222, 142, 142);
   color: rgb(8, 8, 8);
 }
+
+@media only screen and (max-width: 1023px) {
+  body {
+    background-color: rgb(123, 216, 245);
+    display: grid;
+    grid-template-areas:
+      "titel rectangel1"
+      "Cyclope rectangel1"
+      "Bottles rectangel1"
+      "DivingFine rectangel1"
+      "Regulator rectangel1"
+      "DivingComputer rectangel1"
+      "Tube rectangel1";
+
+    margin-left: 5%;
+    margin-right: 1%;
+    margin-top: 2%;
+    ;
+  }
+}
+
